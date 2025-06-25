@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="Snapshot" id="{766a5bcc-7d6f-4c5c-a090-f97435c026f8}">
+		<property name="name">
+			<value>Outside</value>
+		</property>
+		<relationship name="mixer">
+			<destination>{2134afee-f4d4-4a57-9e95-a7d9274d987e}</destination>
+		</relationship>
+		<relationship name="automatableProperties">
+			<destination>{cded6049-fc29-4ae7-9646-925573e55d79}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{6f7c9382-bfe8-4811-97b8-257b56db20b8}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{bce9bbc7-2ee0-4f4a-8714-296b20e7d611}</destination>
+		</relationship>
+		<relationship name="snapshotMasterTrack">
+			<destination>{358ad647-bfdf-46e0-ad0a-f26c8e6a5c5d}</destination>
+		</relationship>
+		<relationship name="snapshotProperties">
+			<destination>{f049df62-8ce5-4c00-ac8c-f3581428c134}</destination>
+		</relationship>
+		<relationship name="snapshotTracks">
+			<destination>{7ee09fe2-45b0-4d94-91dd-20b56956148f}</destination>
+		</relationship>
+	</object>
+	<object class="EventAutomatableProperties" id="{cded6049-fc29-4ae7-9646-925573e55d79}" />
+	<object class="MarkerTrack" id="{6f7c9382-bfe8-4811-97b8-257b56db20b8}" />
+	<object class="Timeline" id="{bce9bbc7-2ee0-4f4a-8714-296b20e7d611}" />
+	<object class="SnapshotMasterTrack" id="{358ad647-bfdf-46e0-ad0a-f26c8e6a5c5d}" />
+	<object class="SnapshotProperty" id="{f049df62-8ce5-4c00-ac8c-f3581428c134}">
+		<property name="propertyName">
+			<value>volume</value>
+		</property>
+		<property name="value">
+			<value>-19.5</value>
+		</property>
+		<relationship name="automatableObject">
+			<destination>{366ea59d-7564-4ec6-b45e-5451b5efeb16}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotTrack" id="{7ee09fe2-45b0-4d94-91dd-20b56956148f}">
+		<relationship name="mixerStrip">
+			<destination>{366ea59d-7564-4ec6-b45e-5451b5efeb16}</destination>
+		</relationship>
+	</object>
+</objects>

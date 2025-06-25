@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{f68b58df-e087-41f4-8344-71572ad78f76}">
 		<property name="name">
 			<value>Ambient</value>
@@ -31,6 +31,9 @@
 		<relationship name="timeline">
 			<destination>{680fe80f-cbbe-46fa-a2f5-8293924dfaf4}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{c4b2eebb-c533-477d-a574-d186a7810fba}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{9761ba8f-85ec-4775-ae92-a4ff0cc9bab9}">
 		<relationship name="masterBus">
@@ -50,7 +53,7 @@
 			<destination>{231a27a2-a62a-4747-a3cc-e3bbab839ee6}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{ae829f45-e7bc-464e-9eb6-c663d3d856cb}</destination>
+			<destination>{1c24dc2b-6fed-486b-884a-45cba1d29a1b}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{726b41db-ad1f-418c-b6a9-981be210d3b1}" />
@@ -66,8 +69,8 @@
 	</object>
 	<object class="Timeline" id="{680fe80f-cbbe-46fa-a2f5-8293924dfaf4}">
 		<relationship name="modules">
-			<destination>{7d617b78-425e-4f44-a741-d429fb3d3842}</destination>
 			<destination>{da85fdda-4a90-40bf-b0a3-3df438b3f6d7}</destination>
+			<destination>{7d617b78-425e-4f44-a741-d429fb3d3842}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{91e4bc0e-1dff-4b0a-a636-aab3a0394220}">

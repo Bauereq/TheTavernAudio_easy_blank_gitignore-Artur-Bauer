@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{82ee7c13-feb6-42e6-bc95-3bb751c80023}">
 		<property name="name">
 			<value>Jumps</value>
@@ -38,6 +38,9 @@
 			<destination>{ea9a37aa-27b1-4df7-a664-c85ee244849f}</destination>
 			<destination>{765e90ab-fcba-47d2-982f-a46a2468141a}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{aebe0241-dc28-41dc-89f5-0d0cbe97864a}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{35b6e92b-2d9e-4334-9b7b-4eba3c61259a}">
 		<relationship name="masterBus">
@@ -57,7 +60,7 @@
 			<destination>{a69592ff-415d-4b42-abc1-453991cb4772}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{180e9113-3588-4365-9b2e-cb4c8b419f10}</destination>
+			<destination>{c5111cdf-7c0b-452e-b855-592adb575b39}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{8ea06bb1-af52-4b3a-8ad6-e453dbcdd88d}" />
@@ -97,9 +100,9 @@
 	<object class="Timeline" id="{e78b182b-5d3d-47c0-be29-327e5b51398d}">
 		<relationship name="modules">
 			<destination>{f2671ca4-7e15-4c05-a955-b713114dbc11}</destination>
-			<destination>{9edd665a-bead-4559-a582-cdad325984a5}</destination>
-			<destination>{50a6459f-cc5a-487e-98b0-3a2e26973207}</destination>
 			<destination>{8c45b2ef-66a3-46ea-b394-fbce8d870de8}</destination>
+			<destination>{50a6459f-cc5a-487e-98b0-3a2e26973207}</destination>
+			<destination>{9edd665a-bead-4559-a582-cdad325984a5}</destination>
 		</relationship>
 	</object>
 	<object class="ParameterProxy" id="{ea9a37aa-27b1-4df7-a664-c85ee244849f}">
@@ -245,6 +248,7 @@
 	<object class="MixerBusEffectChain" id="{bb4f851f-401a-47aa-84f9-a4e6291c3cf9}">
 		<relationship name="effects">
 			<destination>{e8312db5-1c7c-4615-8eed-977c9336b642}</destination>
+			<destination>{cc9b7bd1-e1cc-462f-ac9a-aef4aca763ee}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{3cc994c4-5a72-4952-8bac-efe91591a32d}" />
@@ -274,6 +278,7 @@
 	<object class="MixerBusEffectChain" id="{f70143d2-1110-4c67-b984-f9eed6020477}">
 		<relationship name="effects">
 			<destination>{5b505262-ae31-427d-806f-980ad24a822c}</destination>
+			<destination>{0b3d5bf9-6734-4abc-aee0-75b671eb05c6}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{b05401e9-1dc5-454c-960c-94c4950beebe}" />
@@ -363,7 +368,31 @@
 	</object>
 	<object class="MixerBusPanner" id="{1b96f2d1-9ff6-4d8e-b13d-d2bf20ff2b88}" />
 	<object class="MixerBusFader" id="{e8312db5-1c7c-4615-8eed-977c9336b642}" />
+	<object class="SFXReverbEffect" id="{cc9b7bd1-e1cc-462f-ac9a-aef4aca763ee}">
+		<property name="decayTime">
+			<value>500</value>
+		</property>
+		<property name="earlyDelay">
+			<value>3</value>
+		</property>
+		<property name="lateDelay">
+			<value>4</value>
+		</property>
+		<property name="HFDecayRatio">
+			<value>10</value>
+		</property>
+		<property name="highCut">
+			<value>160</value>
+		</property>
+		<property name="earlyLateMix">
+			<value>58</value>
+		</property>
+		<property name="wetLevel">
+			<value>-19</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{5b505262-ae31-427d-806f-980ad24a822c}" />
+	<object class="ThreeEQEffect" id="{0b3d5bf9-6734-4abc-aee0-75b671eb05c6}" />
 	<object class="MixerBusFader" id="{1b545c9d-82c4-4e41-a59b-a330aae2e70b}" />
 	<object class="MixerBusFader" id="{0637eb49-7521-4b7f-a7cf-2435df9b72e3}" />
 	<object class="MixerBusFader" id="{bda59233-959a-4b0c-ab88-93857da3b7ca}" />

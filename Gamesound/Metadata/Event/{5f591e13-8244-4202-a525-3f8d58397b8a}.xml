@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{5f591e13-8244-4202-a525-3f8d58397b8a}">
 		<property name="name">
 			<value>Tavern</value>
@@ -31,6 +31,9 @@
 		<relationship name="timeline">
 			<destination>{311f913e-63e1-47f9-8c9b-6f181f142cd7}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{c4b2eebb-c533-477d-a574-d186a7810fba}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{31820716-f148-44cd-873d-4b1d4bbf2832}">
 		<relationship name="masterBus">
@@ -43,6 +46,9 @@
 		</relationship>
 	</object>
 	<object class="MixerInput" id="{3b2f5e3c-54f5-45af-bad3-5c7065e542de}">
+		<relationship name="masters">
+			<destination>{366ea59d-7564-4ec6-b45e-5451b5efeb16}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{b19f4d90-239e-4aa3-805f-746c8ae701ac}</destination>
 		</relationship>
@@ -50,7 +56,7 @@
 			<destination>{f3ef8ee8-1c6f-4c27-8ecd-bd1428659b84}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{c47d40ba-8a1b-4b5d-b8a9-e2bbdabae6af}</destination>
+			<destination>{1c24dc2b-6fed-486b-884a-45cba1d29a1b}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{4504f94d-48d3-4403-8c94-4daa2cdde4fa}" />

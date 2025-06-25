@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{b5f58a6f-8422-4879-8e9d-e5cce9dd4ce7}">
 		<property name="name">
 			<value>Music</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{2e0eb7e9-8bf7-4305-a2ce-7f7f1f5070fa}</destination>
@@ -31,6 +31,9 @@
 		<relationship name="timeline">
 			<destination>{231311dc-d3a1-4a0b-9bef-6d4d56bc1732}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{6dee30d1-f82b-4167-900e-f252c755f5eb}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{f88d9e35-170e-4cd5-a861-aa755c36bae3}">
 		<relationship name="masterBus">
@@ -43,6 +46,9 @@
 		</relationship>
 	</object>
 	<object class="MixerInput" id="{b8d7bc20-c212-4e8e-ab05-aa771e8dbe72}">
+		<relationship name="masters">
+			<destination>{366ea59d-7564-4ec6-b45e-5451b5efeb16}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{55d12563-19be-4211-a388-a8971db0c877}</destination>
 		</relationship>
@@ -50,7 +56,7 @@
 			<destination>{1b703af9-39f8-44f3-9c7a-fcf84b790cf0}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{c47d40ba-8a1b-4b5d-b8a9-e2bbdabae6af}</destination>
+			<destination>{9a092c2b-9b74-4e66-a123-722b4bd809aa}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{e4df6727-3804-4309-8875-a80b97cf266f}" />
@@ -135,10 +141,18 @@
 		<relationship name="effects">
 			<destination>{49451784-033f-4c48-a957-148e692dfa8d}</destination>
 			<destination>{b55ae6bb-dacc-47d4-a6ff-15b63ee84e27}</destination>
+			<destination>{9cb60d94-cb81-48fe-84b7-fd4abad07b1f}</destination>
+			<destination>{d3fee195-fba8-4e39-a803-315c78327014}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{fa7b218b-abbe-4e7d-8ac2-59c541c41bbf}" />
 	<object class="MixerBusFader" id="{0a00ac45-f07f-4161-b70e-16ff0f9705e7}" />
 	<object class="SFXReverbEffect" id="{49451784-033f-4c48-a957-148e692dfa8d}" />
 	<object class="MixerBusFader" id="{b55ae6bb-dacc-47d4-a6ff-15b63ee84e27}" />
+	<object class="GainEffect" id="{9cb60d94-cb81-48fe-84b7-fd4abad07b1f}">
+		<property name="gain">
+			<value>-3</value>
+		</property>
+	</object>
+	<object class="SpatialiserEffect" id="{d3fee195-fba8-4e39-a803-315c78327014}" />
 </objects>

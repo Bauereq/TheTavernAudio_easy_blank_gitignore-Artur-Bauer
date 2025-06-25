@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{1c24dc2b-6fed-486b-884a-45cba1d29a1b}">
+		<property name="name">
+			<value>Ambiet G</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{56dbf084-8334-47fe-af63-dfe134de49c8}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{79e65a8f-6ff3-4738-9094-f0a02e8bf325}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{d4350488-9cda-403d-b038-b51bc863e3ab}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{56dbf084-8334-47fe-af63-dfe134de49c8}">
+		<relationship name="effects">
+			<destination>{7c6d5c35-66ef-4e3b-81f4-f2583d105e21}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{79e65a8f-6ff3-4738-9094-f0a02e8bf325}" />
+	<object class="MixerBusFader" id="{7c6d5c35-66ef-4e3b-81f4-f2583d105e21}" />
+</objects>

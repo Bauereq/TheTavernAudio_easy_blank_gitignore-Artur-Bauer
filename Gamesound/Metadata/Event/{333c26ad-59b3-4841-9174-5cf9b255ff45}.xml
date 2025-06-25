@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{333c26ad-59b3-4841-9174-5cf9b255ff45}">
 		<property name="name">
 			<value>Bed</value>
@@ -31,6 +31,9 @@
 		<relationship name="timeline">
 			<destination>{9e029cb2-695f-48a8-83e3-9887cad92ad2}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{aebe0241-dc28-41dc-89f5-0d0cbe97864a}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{378558f5-df65-4e60-ae67-d8502b2e6157}">
 		<relationship name="masterBus">
@@ -50,15 +53,15 @@
 			<destination>{d981750f-c457-405d-86b0-eb7b11152d79}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{c47d40ba-8a1b-4b5d-b8a9-e2bbdabae6af}</destination>
+			<destination>{c5111cdf-7c0b-452e-b855-592adb575b39}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{cfa1b718-6ddb-4d92-a88e-6e7970248cd9}" />
 	<object class="MarkerTrack" id="{ffb82070-003f-4cc3-a3da-7939a3adc720}" />
 	<object class="GroupTrack" id="{94cf776d-2697-45c2-b39d-aec98b303647}">
 		<relationship name="modules">
-			<destination>{8f10c380-28d0-4a2a-9287-d2368a4972b8}</destination>
 			<destination>{1d66226d-c66b-4e12-a51f-e9662b13e68f}</destination>
+			<destination>{8f10c380-28d0-4a2a-9287-d2368a4972b8}</destination>
 			<destination>{fff4fe2d-4437-43de-acfe-04ac53c0abe9}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
@@ -89,20 +92,20 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{d981750f-c457-405d-86b0-eb7b11152d79}" />
-	<object class="SingleSound" id="{8f10c380-28d0-4a2a-9287-d2368a4972b8}">
-		<property name="length">
-			<value>0.90666666666666662</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{218734b5-d2e4-45df-afe5-74a3f8ee1e1d}</destination>
-		</relationship>
-	</object>
 	<object class="SingleSound" id="{1d66226d-c66b-4e12-a51f-e9662b13e68f}">
 		<property name="length">
 			<value>0.90666666666666662</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{4b876159-4924-40b6-9d2b-f7be0171707f}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{8f10c380-28d0-4a2a-9287-d2368a4972b8}">
+		<property name="length">
+			<value>0.90666666666666662</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{218734b5-d2e4-45df-afe5-74a3f8ee1e1d}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{fff4fe2d-4437-43de-acfe-04ac53c0abe9}">

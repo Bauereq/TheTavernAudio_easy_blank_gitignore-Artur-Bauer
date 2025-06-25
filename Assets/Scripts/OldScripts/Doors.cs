@@ -10,6 +10,7 @@ public class Doors : MonoBehaviour, IInteractable
     public float rotationSpeed = 90f; // Degrees per second
     bool doorsOpened = true;
     bool isRotating = false;
+    [SerializeField] RoomAmbient roomAmbient;  
 
     ////////////////// FMOD Section ///////////////////
 
@@ -74,7 +75,7 @@ public class Doors : MonoBehaviour, IInteractable
         if (doorsOpened == true)
         {            
             DoorsSound = FMODUnity.RuntimeManager.CreateInstance(DoorsEvent);
-            DoorsSound.setParameterByNameWithLabel("Doors", "Close");
+            DoorsSound.setParameterByNameWithLabel("Doors", "Closed");
             DoorsSound.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject.transform));
             DoorsSound.start();
             //FMODUnity.RuntimeManager.PlayOneShot(DoorsEvent);
