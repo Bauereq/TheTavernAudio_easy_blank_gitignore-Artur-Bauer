@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: Gamesound/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638864881670885796
+  lastModified: 638865252701860041
   FileSizes:
   - Name: Desktop
     Value: 2286432
@@ -180,33 +180,6 @@ MonoBehaviour:
   - Stone
   - Wood
   Exists: 1
---- !u!114 &-4212303518021570871
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Tavern
-  m_EditorClassIdentifier: 
-  Path: event:/Tavern
-  Guid:
-    Data1: 1599675923
-    Data2: 1107460676
-    Data3: -1925241435
-    Data4: -1971635880
-  Banks:
-  - {fileID: 3485274313974325420}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 207609
 --- !u!114 &-3574674308283598617
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -288,33 +261,6 @@ MonoBehaviour:
   - Stone
   - Wood
   Exists: 1
---- !u!114 &-1003176022657125532
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Ambient
-  m_EditorClassIdentifier: 
-  Path: event:/Ambient
-  Guid:
-    Data1: -158639905
-    Data2: 1106567303
-    Data3: 1467040899
-    Data4: 1989138218
-  Banks:
-  - {fileID: 3485274313974325420}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 37500
 --- !u!114 &-328555864044617191
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -360,9 +306,6 @@ MonoBehaviour:
   - {fileID: 548010767282023832}
   - {fileID: -8383765832148096617}
   EditorEvents:
-  - {fileID: -4212303518021570871}
-  - {fileID: 384243579359811744}
-  - {fileID: -1003176022657125532}
   - {fileID: 8450841322141838463}
   - {fileID: -5392424014026353148}
   - {fileID: -5778146203435368053}
@@ -371,63 +314,39 @@ MonoBehaviour:
   - {fileID: -3574674308283598617}
   - {fileID: -2222026252660527425}
   - {fileID: 5208009277973408604}
+  - {fileID: 7974860876950031690}
+  - {fileID: 5880691444962482274}
+  - {fileID: 4320858903291940708}
   EditorParameters: []
   MasterBanks:
   - {fileID: 7684665221700054434}
   StringsBanks:
   - {fileID: 4226321439307552418}
   cacheVersion: 131848
-  cacheTime: 638864888011271185
+  cacheTime: 638865319768822581
   SerializableEventsDict:
-  - key: event:/Tavern
-    index: 0
-  - key: event:/Ambient2
-    index: 1
-  - key: event:/Ambient
-    index: 2
   - key: snapshot:/Inside
-    index: 3
+    index: 0
   - key: snapshot:/Outside
-    index: 4
+    index: 1
   - key: event:/Music
-    index: 5
+    index: 2
   - key: event:/Jumps
-    index: 6
+    index: 3
   - key: event:/Fireplace
-    index: 7
+    index: 4
   - key: event:/Doors
-    index: 8
+    index: 5
   - key: event:/Bed
-    index: 9
+    index: 6
   - key: event:/Footsteps
+    index: 7
+  - key: event:/Tavern
+    index: 8
+  - key: event:/Ambient2
+    index: 9
+  - key: event:/Ambient
     index: 10
---- !u!114 &384243579359811744
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Ambient2
-  m_EditorClassIdentifier: 
-  Path: event:/Ambient2
-  Guid:
-    Data1: 542526005
-    Data2: 1088891611
-    Data3: 694430138
-    Data4: -1198345352
-  Banks:
-  - {fileID: 3485274313974325420}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 51000
 --- !u!114 &548010767282023832
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -443,7 +362,7 @@ MonoBehaviour:
   Path: Gamesound/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638864876723024732
+  lastModified: 638865314079599999
   FileSizes:
   - Name: Desktop
     Value: 976960
@@ -518,7 +437,7 @@ MonoBehaviour:
   Path: Gamesound/Build/Desktop/Ambient.bank
   Name: Ambient
   StudioPath: bank:/Ambient
-  lastModified: 638864883619730018
+  lastModified: 638865319768822581
   FileSizes:
   - Name: Desktop
     Value: 3686656
@@ -538,11 +457,38 @@ MonoBehaviour:
   Path: Gamesound/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638864888011271185
+  lastModified: 638865309726313114
   FileSizes:
   - Name: Desktop
     Value: 1664
   Exists: 1
+--- !u!114 &4320858903291940708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambient
+  m_EditorClassIdentifier: 
+  Path: event:/Ambient
+  Guid:
+    Data1: -158639905
+    Data2: 1106567303
+    Data3: 1467040899
+    Data4: 1989138218
+  Banks:
+  - {fileID: 3485274313974325420}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 37500
 --- !u!114 &5208009277973408604
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -572,6 +518,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 487
+--- !u!114 &5880691444962482274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambient2
+  m_EditorClassIdentifier: 
+  Path: event:/Ambient2
+  Guid:
+    Data1: 542526005
+    Data2: 1088891611
+    Data3: 694430138
+    Data4: -1198345352
+  Banks:
+  - {fileID: 3485274313974325420}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 51000
 --- !u!114 &7684665221700054434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -587,11 +560,38 @@ MonoBehaviour:
   Path: Gamesound/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638864888011255685
+  lastModified: 638865309726303119
   FileSizes:
   - Name: Desktop
     Value: 3064
   Exists: 1
+--- !u!114 &7974860876950031690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tavern
+  m_EditorClassIdentifier: 
+  Path: event:/Tavern
+  Guid:
+    Data1: 1599675923
+    Data2: 1107460676
+    Data3: -1925241435
+    Data4: -1971635880
+  Banks:
+  - {fileID: 3485274313974325420}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 207609
 --- !u!114 &8450841322141838463
 MonoBehaviour:
   m_ObjectHideFlags: 0

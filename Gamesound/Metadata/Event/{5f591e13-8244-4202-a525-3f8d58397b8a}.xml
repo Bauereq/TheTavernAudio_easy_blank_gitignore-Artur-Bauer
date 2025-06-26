@@ -46,9 +46,6 @@
 		</relationship>
 	</object>
 	<object class="MixerInput" id="{3b2f5e3c-54f5-45af-bad3-5c7065e542de}">
-		<relationship name="masters">
-			<destination>{366ea59d-7564-4ec6-b45e-5451b5efeb16}</destination>
-		</relationship>
 		<relationship name="effectChain">
 			<destination>{b19f4d90-239e-4aa3-805f-746c8ae701ac}</destination>
 		</relationship>
@@ -101,6 +98,9 @@
 		<property name="startOffset">
 			<value>50</value>
 		</property>
+		<property name="looping">
+			<value>true</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{e2decae4-cb7a-40fa-a0ce-c65fddaed435}</destination>
 		</relationship>
@@ -109,6 +109,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{042fd9eb-3369-42a5-80af-06df52b312d7}">
+		<property name="volume">
+			<value>-4</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
