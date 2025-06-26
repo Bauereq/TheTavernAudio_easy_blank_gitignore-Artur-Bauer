@@ -323,7 +323,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 4226321439307552418}
   cacheVersion: 131848
-  cacheTime: 638865319768822581
+  cacheTime: 638865322885357044
   SerializableEventsDict:
   - key: snapshot:/Inside
     index: 0
@@ -437,7 +437,7 @@ MonoBehaviour:
   Path: Gamesound/Build/Desktop/Ambient.bank
   Name: Ambient
   StudioPath: bank:/Ambient
-  lastModified: 638865319768822581
+  lastModified: 638865322885357044
   FileSizes:
   - Name: Desktop
     Value: 3686656
